@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WechatNoPay_Example' do
+  pod 'WechatNoPay', :path => '../'
+
+  target 'WechatNoPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
