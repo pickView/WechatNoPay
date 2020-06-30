@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2666DD9621493D6B49FAB3AE18523BFA /* Pods-WechatNoPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1BE73C481752C635CA9E6A5ED519F4 /* Pods-WechatNoPay_Tests-dummy.m */; };
+		29451946FA171CE76798FA425EEA996E /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = 7EB2063DC849D5E62CA1886F78712DA2 /* libWeChatSDK.a */; };
+		4508FA043DBAC25B2985210359F3CCE0 /* WechatNoPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88163A4CECAB651223E0B1E8BB3B8F56 /* WechatNoPay-dummy.m */; };
+		4764B78578C833647B3C9B22500AF43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		495EBF2D97D0020C22DD1B2EBDCFEE14 /* Pods-WechatNoPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 396EAA20438E7C3424D435C837BFC072 /* Pods-WechatNoPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65DC53DA5E687FAE45C5069D66C9DE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		71682F0EF0F470A75E20B80EC29B0B72 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = C1CA28CBA1AD07E22B257DE6CB16DF19 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8635F883C3884FD104291F88F2F2CC29 /* Pods-WechatNoPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D25C828A3D732622BEDF7D6C8F91763 /* Pods-WechatNoPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69D2443885C059D512723ED5E8CEAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C799E55329D942896F92BDEC0A3BD922 /* WechatNoPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C473B1191C61C711BB21E982EEF4EE /* WechatNoPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EB2CF13E2307B1CB60FA697F50DEF0 /* Pods-WechatNoPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973EB47AA57EE6FA8E35D11EB2E539DB /* Pods-WechatNoPay_Example-dummy.m */; };
+		D8D96F37E4144005EAA28F0350B9C2C9 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 566046F414C8EFC78C030805DFCD7F1A /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F140CBC59056E357C2A15E2DC767ECAA /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B9A8CDE74D7F9A211D699680F1970D /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1502DCD21B21CE63C762FAF4D6B4794B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB1BC798F0D429E83B75FFC27494C17;
+			remoteInfo = WechatNoPay;
+		};
+		88124D6BD419C5D1C4E48D9C960E180F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965A43D9CE8FEAFD7BF3B6021551FDF3;
+			remoteInfo = "Pods-WechatNoPay_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DC1DDD828BFC70CFB057026B08562A4 /* WechatNoPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatNoPay.xcconfig; sourceTree = "<group>"; };
+		1EFD5B216E42F0D897B6252EB8AA0B0B /* Pods-WechatNoPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WechatNoPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26B9A8CDE74D7F9A211D699680F1970D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WechatNoPay/Classes/WXApiObject.h; sourceTree = "<group>"; };
+		299978BE62168A94B9B5A0BBAAABBC76 /* Pods-WechatNoPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WechatNoPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AA7F8768D98133410B1FD8A7F6FA4BF /* Pods-WechatNoPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WechatNoPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D25C828A3D732622BEDF7D6C8F91763 /* Pods-WechatNoPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WechatNoPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		369B3662AC1B14C1516EBA03F0990FBA /* Pods-WechatNoPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WechatNoPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		396EAA20438E7C3424D435C837BFC072 /* Pods-WechatNoPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WechatNoPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D00B6AD790640CD1CE62F933F762327 /* Pods_WechatNoPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WechatNoPay_Example.framework; path = "Pods-WechatNoPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E3419B8EBF7C51434FE790D5DF131C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A7353AFA741E9B7B753921B95EA468E /* WechatNoPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WechatNoPay.framework; path = WechatNoPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC2BA078A08BAD5FB3A81D54D0BD8AC /* Pods-WechatNoPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WechatNoPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4EBC52900ADCE978BEEBB4F2250DB285 /* Pods-WechatNoPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WechatNoPay_Example-Info.plist"; sourceTree = "<group>"; };
+		5341A8A2844414BBEA92B257BCCC7FC2 /* Pods-WechatNoPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WechatNoPay_Example.modulemap"; sourceTree = "<group>"; };
+		566046F414C8EFC78C030805DFCD7F1A /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WechatNoPay/Classes/WechatAuthSDK.h; sourceTree = "<group>"; };
+		62C0C28AC6C19824590615199B803156 /* Pods_WechatNoPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WechatNoPay_Tests.framework; path = "Pods-WechatNoPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F02332336297267F1DECBC1953E43DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7EB2063DC849D5E62CA1886F78712DA2 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WechatNoPay/Classes/libWeChatSDK.a; sourceTree = "<group>"; };
+		805F7C31A76B105820852E9DDCF4368A /* WechatNoPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WechatNoPay-Info.plist"; sourceTree = "<group>"; };
+		88163A4CECAB651223E0B1E8BB3B8F56 /* WechatNoPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WechatNoPay-dummy.m"; sourceTree = "<group>"; };
+		973EB47AA57EE6FA8E35D11EB2E539DB /* Pods-WechatNoPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WechatNoPay_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1784D3D53A6A89B8242CE1507625D3E /* Pods-WechatNoPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WechatNoPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8C9F9FEE4C986E288AE763FD00445D0 /* WechatNoPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatNoPay-prefix.pch"; sourceTree = "<group>"; };
+		B58B47343287D859D63FB17BBE6FDDAA /* Pods-WechatNoPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WechatNoPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA1BE73C481752C635CA9E6A5ED519F4 /* Pods-WechatNoPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WechatNoPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA4BC907D6B001C6C8C6A2088A22CB04 /* Pods-WechatNoPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WechatNoPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C1CA28CBA1AD07E22B257DE6CB16DF19 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WechatNoPay/Classes/WXApi.h; sourceTree = "<group>"; };
+		E1C473B1191C61C711BB21E982EEF4EE /* WechatNoPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WechatNoPay-umbrella.h"; sourceTree = "<group>"; };
+		EADDD37BD189FCD997AC3C79D6A870D7 /* Pods-WechatNoPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WechatNoPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		EAF71E23FAC6B00B344509ECFDE7F688 /* Pods-WechatNoPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WechatNoPay_Tests.modulemap"; sourceTree = "<group>"; };
+		EB90B1F0BB46417560408064E69C23E1 /* Pods-WechatNoPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WechatNoPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE59E46BF749BBB75E44EFA3557D78A8 /* WechatNoPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WechatNoPay.modulemap; sourceTree = "<group>"; };
+		FE824702FCC7D4F003FB51665971884A /* WechatNoPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WechatNoPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7168143DE90BFF0249095690E05249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4764B78578C833647B3C9B22500AF43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3B169E70053F7A91A4EDC80978DC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D2443885C059D512723ED5E8CEAD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9804DD06F279127B12098B1BFC98C9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DC53DA5E687FAE45C5069D66C9DE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347ED6EF460BE0D0F2FAFC3E98D8D752 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				48E3419B8EBF7C51434FE790D5DF131C /* LICENSE */,
+				6F02332336297267F1DECBC1953E43DD /* README.md */,
+				FE824702FCC7D4F003FB51665971884A /* WechatNoPay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		357B1DDFD21CE6F2352A7BAA3D65F0D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53862E0802287051B8087353CCF3D7C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAEE38FF3A813AD34EEAC65D3A317CF4 /* WechatNoPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		64FB833BFC6C9B315FEB04A4A2F7D2DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE59E46BF749BBB75E44EFA3557D78A8 /* WechatNoPay.modulemap */,
+				1DC1DDD828BFC70CFB057026B08562A4 /* WechatNoPay.xcconfig */,
+				88163A4CECAB651223E0B1E8BB3B8F56 /* WechatNoPay-dummy.m */,
+				805F7C31A76B105820852E9DDCF4368A /* WechatNoPay-Info.plist */,
+				A8C9F9FEE4C986E288AE763FD00445D0 /* WechatNoPay-prefix.pch */,
+				E1C473B1191C61C711BB21E982EEF4EE /* WechatNoPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WechatNoPay";
+			sourceTree = "<group>";
+		};
+		805A17E7F49B162EF8ED4332DA8E7B6B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC167EA6F5321CAEA08080E9648179 /* Pods-WechatNoPay_Example */,
+				8B1DBF66BC640838427E88F49C30FC15 /* Pods-WechatNoPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B1DBF66BC640838427E88F49C30FC15 /* Pods-WechatNoPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71E23FAC6B00B344509ECFDE7F688 /* Pods-WechatNoPay_Tests.modulemap */,
+				B58B47343287D859D63FB17BBE6FDDAA /* Pods-WechatNoPay_Tests-acknowledgements.markdown */,
+				EB90B1F0BB46417560408064E69C23E1 /* Pods-WechatNoPay_Tests-acknowledgements.plist */,
+				BA1BE73C481752C635CA9E6A5ED519F4 /* Pods-WechatNoPay_Tests-dummy.m */,
+				EADDD37BD189FCD997AC3C79D6A870D7 /* Pods-WechatNoPay_Tests-Info.plist */,
+				2D25C828A3D732622BEDF7D6C8F91763 /* Pods-WechatNoPay_Tests-umbrella.h */,
+				1EFD5B216E42F0D897B6252EB8AA0B0B /* Pods-WechatNoPay_Tests.debug.xcconfig */,
+				4BC2BA078A08BAD5FB3A81D54D0BD8AC /* Pods-WechatNoPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-WechatNoPay_Tests";
+			path = "Target Support Files/Pods-WechatNoPay_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				53862E0802287051B8087353CCF3D7C0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F6C9CE2EDFEFFC27A4EE8064022A9442 /* Products */,
+				805A17E7F49B162EF8ED4332DA8E7B6B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEE38FF3A813AD34EEAC65D3A317CF4 /* WechatNoPay */ = {
+			isa = PBXGroup;
+			children = (
+				7EB2063DC849D5E62CA1886F78712DA2 /* libWeChatSDK.a */,
+				566046F414C8EFC78C030805DFCD7F1A /* WechatAuthSDK.h */,
+				C1CA28CBA1AD07E22B257DE6CB16DF19 /* WXApi.h */,
+				26B9A8CDE74D7F9A211D699680F1970D /* WXApiObject.h */,
+				357B1DDFD21CE6F2352A7BAA3D65F0D9 /* Frameworks */,
+				347ED6EF460BE0D0F2FAFC3E98D8D752 /* Pod */,
+				64FB833BFC6C9B315FEB04A4A2F7D2DF /* Support Files */,
+			);
+			name = WechatNoPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DEBC167EA6F5321CAEA08080E9648179 /* Pods-WechatNoPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5341A8A2844414BBEA92B257BCCC7FC2 /* Pods-WechatNoPay_Example.modulemap */,
+				299978BE62168A94B9B5A0BBAAABBC76 /* Pods-WechatNoPay_Example-acknowledgements.markdown */,
+				369B3662AC1B14C1516EBA03F0990FBA /* Pods-WechatNoPay_Example-acknowledgements.plist */,
+				973EB47AA57EE6FA8E35D11EB2E539DB /* Pods-WechatNoPay_Example-dummy.m */,
+				BA4BC907D6B001C6C8C6A2088A22CB04 /* Pods-WechatNoPay_Example-frameworks.sh */,
+				4EBC52900ADCE978BEEBB4F2250DB285 /* Pods-WechatNoPay_Example-Info.plist */,
+				396EAA20438E7C3424D435C837BFC072 /* Pods-WechatNoPay_Example-umbrella.h */,
+				2AA7F8768D98133410B1FD8A7F6FA4BF /* Pods-WechatNoPay_Example.debug.xcconfig */,
+				A1784D3D53A6A89B8242CE1507625D3E /* Pods-WechatNoPay_Example.release.xcconfig */,
+			);
+			name = "Pods-WechatNoPay_Example";
+			path = "Target Support Files/Pods-WechatNoPay_Example";
+			sourceTree = "<group>";
+		};
+		F6C9CE2EDFEFFC27A4EE8064022A9442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D00B6AD790640CD1CE62F933F762327 /* Pods_WechatNoPay_Example.framework */,
+				62C0C28AC6C19824590615199B803156 /* Pods_WechatNoPay_Tests.framework */,
+				4A7353AFA741E9B7B753921B95EA468E /* WechatNoPay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AF6545E07EA8F803D6A3D0DC1FA32A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495EBF2D97D0020C22DD1B2EBDCFEE14 /* Pods-WechatNoPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417832B16116FD1686E1DDB7C8F45EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D96F37E4144005EAA28F0350B9C2C9 /* WechatAuthSDK.h in Headers */,
+				C799E55329D942896F92BDEC0A3BD922 /* WechatNoPay-umbrella.h in Headers */,
+				71682F0EF0F470A75E20B80EC29B0B72 /* WXApi.h in Headers */,
+				F140CBC59056E357C2A15E2DC767ECAA /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7CE7B31D8CBC7D9EB6185339D32157 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8635F883C3884FD104291F88F2F2CC29 /* Pods-WechatNoPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EB1BC798F0D429E83B75FFC27494C17 /* WechatNoPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4874FDA979B37C0089D989014D4479C9 /* Build configuration list for PBXNativeTarget "WechatNoPay" */;
+			buildPhases = (
+				5417832B16116FD1686E1DDB7C8F45EB /* Headers */,
+				DE613193AEF15E260B7C2C39BF6A0793 /* Sources */,
+				5B7168143DE90BFF0249095690E05249 /* Frameworks */,
+				32FB1ECC7729898D70ABF094A5FDA0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WechatNoPay;
+			productName = WechatNoPay;
+			productReference = 4A7353AFA741E9B7B753921B95EA468E /* WechatNoPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		920B9FE09B72636A71355F49DC1971E2 /* Pods-WechatNoPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2040D427B08A12CC0A6727F65BCC5AD0 /* Build configuration list for PBXNativeTarget "Pods-WechatNoPay_Tests" */;
+			buildPhases = (
+				6A7CE7B31D8CBC7D9EB6185339D32157 /* Headers */,
+				1B94A6F04F7C830ED1BDF0ADFBF59B7D /* Sources */,
+				9804DD06F279127B12098B1BFC98C9C4 /* Frameworks */,
+				1CA71E30ABDA79038C030CEA6194A371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D583E69B9AE94E5523906235885E4D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-WechatNoPay_Tests";
+			productName = "Pods-WechatNoPay_Tests";
+			productReference = 62C0C28AC6C19824590615199B803156 /* Pods_WechatNoPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		965A43D9CE8FEAFD7BF3B6021551FDF3 /* Pods-WechatNoPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEC47997BB8E3EFA493D2D72D15387C /* Build configuration list for PBXNativeTarget "Pods-WechatNoPay_Example" */;
+			buildPhases = (
+				3AF6545E07EA8F803D6A3D0DC1FA32A5 /* Headers */,
+				49FD9905D85898AA1A52BA385CD62E11 /* Sources */,
+				8A3B169E70053F7A91A4EDC80978DC5A /* Frameworks */,
+				F0D750273C8D9C5A8992857EAF7B0F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE246E99E8700680989851728B485C93 /* PBXTargetDependency */,
+			);
+			name = "Pods-WechatNoPay_Example";
+			productName = "Pods-WechatNoPay_Example";
+			productReference = 3D00B6AD790640CD1CE62F933F762327 /* Pods_WechatNoPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F6C9CE2EDFEFFC27A4EE8064022A9442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965A43D9CE8FEAFD7BF3B6021551FDF3 /* Pods-WechatNoPay_Example */,
+				920B9FE09B72636A71355F49DC1971E2 /* Pods-WechatNoPay_Tests */,
+				7EB1BC798F0D429E83B75FFC27494C17 /* WechatNoPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA71E30ABDA79038C030CEA6194A371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FB1ECC7729898D70ABF094A5FDA0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D750273C8D9C5A8992857EAF7B0F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B94A6F04F7C830ED1BDF0ADFBF59B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2666DD9621493D6B49FAB3AE18523BFA /* Pods-WechatNoPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FD9905D85898AA1A52BA385CD62E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EB2CF13E2307B1CB60FA697F50DEF0 /* Pods-WechatNoPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE613193AEF15E260B7C2C39BF6A0793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29451946FA171CE76798FA425EEA996E /* libWeChatSDK.a in Sources */,
+				4508FA043DBAC25B2985210359F3CCE0 /* WechatNoPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D583E69B9AE94E5523906235885E4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WechatNoPay_Example";
+			target = 965A43D9CE8FEAFD7BF3B6021551FDF3 /* Pods-WechatNoPay_Example */;
+			targetProxy = 88124D6BD419C5D1C4E48D9C960E180F /* PBXContainerItemProxy */;
+		};
+		EE246E99E8700680989851728B485C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatNoPay;
+			target = 7EB1BC798F0D429E83B75FFC27494C17 /* WechatNoPay */;
+			targetProxy = 1502DCD21B21CE63C762FAF4D6B4794B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B75E5DABCA7950B3A3A163147220C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA7F8768D98133410B1FD8A7F6FA4BF /* Pods-WechatNoPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WechatNoPay_Example/Pods-WechatNoPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WechatNoPay_Example/Pods-WechatNoPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D45E5907315D95B532903B5B1FCE931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC2BA078A08BAD5FB3A81D54D0BD8AC /* Pods-WechatNoPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WechatNoPay_Tests/Pods-WechatNoPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WechatNoPay_Tests/Pods-WechatNoPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		457B095151353D77E13430E9202282B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC1DDD828BFC70CFB057026B08562A4 /* WechatNoPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WechatNoPay/WechatNoPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WechatNoPay/WechatNoPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WechatNoPay/WechatNoPay.modulemap";
+				PRODUCT_MODULE_NAME = WechatNoPay;
+				PRODUCT_NAME = WechatNoPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84B36D1DEFD4B17582C352BA74890FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFD5B216E42F0D897B6252EB8AA0B0B /* Pods-WechatNoPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WechatNoPay_Tests/Pods-WechatNoPay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WechatNoPay_Tests/Pods-WechatNoPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27861E2ACCFA5F604BF76C683E9EF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1784D3D53A6A89B8242CE1507625D3E /* Pods-WechatNoPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WechatNoPay_Example/Pods-WechatNoPay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WechatNoPay_Example/Pods-WechatNoPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A92018F7B8DBFD42D8CD62C7E348CB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC1DDD828BFC70CFB057026B08562A4 /* WechatNoPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WechatNoPay/WechatNoPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WechatNoPay/WechatNoPay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WechatNoPay/WechatNoPay.modulemap";
+				PRODUCT_MODULE_NAME = WechatNoPay;
+				PRODUCT_NAME = WechatNoPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEC47997BB8E3EFA493D2D72D15387C /* Build configuration list for PBXNativeTarget "Pods-WechatNoPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B75E5DABCA7950B3A3A163147220C55 /* Debug */,
+				A27861E2ACCFA5F604BF76C683E9EF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2040D427B08A12CC0A6727F65BCC5AD0 /* Build configuration list for PBXNativeTarget "Pods-WechatNoPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B36D1DEFD4B17582C352BA74890FE6 /* Debug */,
+				1D45E5907315D95B532903B5B1FCE931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4874FDA979B37C0089D989014D4479C9 /* Build configuration list for PBXNativeTarget "WechatNoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457B095151353D77E13430E9202282B7 /* Debug */,
+				A92018F7B8DBFD42D8CD62C7E348CB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

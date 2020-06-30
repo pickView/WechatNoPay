@@ -1,0 +1,16 @@
+PODS:
+  - WechatNoPay (0.1.0)
+
+DEPENDENCIES:
+  - WechatNoPay (from `../`)
+
+EXTERNAL SOURCES:
+  WechatNoPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WechatNoPay: 0d5b84958f6bf6d596ec586f8899950ce3d72690
+
+PODFILE CHECKSUM: d74408c9180a81f1eae44cc4542da4ea07b67533
+
+COCOAPODS: 1.8.4

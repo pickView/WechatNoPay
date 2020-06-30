@@ -1,0 +1,6 @@
+framework module Pods_WechatNoPay_Example {
+  umbrella header "Pods-WechatNoPay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

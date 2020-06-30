@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WechatNoPay'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WechatNoPay.'
+  s.summary          = 'wechatopensdk without pay'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhouchangxu/WechatNoPay'
+  s.homepage         = 'https://github.com/jocehn/WechatNoPay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhouchangxu' => '1016745410@qq.com' }
+  s.author           = { 'jochen' => '1016745410@qq.com' }
   s.source           = { :git => 'https://github.com/zhouchangxu/WechatNoPay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'WechatNoPay/Classes/**/*'
+  s.requires_arc = true
+  s.frameworks = 'Foundation'
+  s.vendored_library = 'WechatNoPay/Classes/libWeChatSDK.a'
   
   # s.resource_bundles = {
   #   'WechatNoPay' => ['WechatNoPay/Assets/*.png']
