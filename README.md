@@ -22,7 +22,7 @@ pod 'WechatNoPay'
 
 ## Author
 
-zhouchangxu, 1016745410@qq.com
+jocehn
 
 ## License
 
