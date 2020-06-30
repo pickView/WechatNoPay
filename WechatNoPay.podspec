@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WechatNoPay'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'wechatopensdk without pay'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jocehn/WechatNoPay'
+  s.homepage         = 'https://github.com/pickView/WechatNoPay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jochen' => '1016745410@qq.com' }
